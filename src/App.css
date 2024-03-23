@@ -1,0 +1,47 @@
+.city-info-area-main{
+  width: 450px;
+  height: 200px;
+  background-color: #d5d5d5;
+  position: absolute;
+  right: 175px;
+}
+.konum{
+  display: flex;
+  height: 40px;
+  align-items: center;
+  margin: 0px 10px;
+}
+.konum-detials{
+  font-size: 20px;
+
+}
+.city-name{
+  margin: 0 40%;
+}
+.konum-sayı{
+  margin-left: 23px;
+}
+.bölge{
+  margin: 0 10px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.detay-goster{
+  text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-size: 28px;
+}
+.weather-info-area-main{
+  flex-direction: column;
+  display: flex;
+  left: 175px;
+  position: absolute;
+  width: 450px;
+  height: 200px;
+  background-color: #d5d5d5;
+}
