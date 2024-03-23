@@ -1,4 +1,5 @@
-![image](https://github.com/tarikbektas/turkey-map-with-weather/assets/127250165/e732f53c-39f8-485a-b09c-ffe4a0e9921e)
+![image](https://github.com/tarikbektas/turkey-map-with-weather/assets/127250165/9dc4dcc3-416f-4590-99cf-4f26c031f34e)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
