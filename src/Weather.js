@@ -1,9 +1,8 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import { IoIosSunny } from "react-icons/io";
-
+ 
 const Weather = ({ cityName }) => {
-  const [havaDurumu, setHavaDurumu] = useState(null);
+  const [havaDurumu, setHavaDurumu] = useState({});
 
   useEffect(() => {
     axios
@@ -26,7 +25,7 @@ const Weather = ({ cityName }) => {
         console.error("Hata:", error);
       });
   }, [cityName]);
-  console.log('hava durumu :' ,havaDurumu)
+ 
   return <div className="weather-info-area-main">
     <h1 style={{ margin:'auto' }}>Hava Durum Bilgisi</h1>
     <h2 style={{ margin:'auto' }}>{cityName}</h2>
